@@ -7,15 +7,19 @@ var $getChoreInfo = document.querySelector('#get-chore');
 
 function grabFormInfo(event) {
   event.preventDefault();
+  var getId = data.nextChoreId;
+  data.nextChoreId++;
+
   var getDay = $getChoreInfo.elements.day.value;
   var getTime = $getChoreInfo.elements.time.value;
   var getMessage = $getChoreInfo.elements.message.value;
   var theChore = {
     day: getDay,
     time: getTime,
-    message: getMessage
+    message: getMessage,
+    id: getId
   };
-  console.log(theChore);
+  data.chores.unshift(theChore);
   $getChoreInfo.reset();
   swapViews('home-page');
 }
