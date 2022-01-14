@@ -1,7 +1,7 @@
 .container {
   width: 83%;
   margin: auto;
-  background-color: red;
+  background-color: rgb(185, 183, 183);
 }
 
 .row {
@@ -12,6 +12,18 @@
   width: 100%;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 h2 {
   text-align: center;
+}
+
+.header {
+
+}
+
+.add-entry-btn {
+  margin-top: 10vh;
 }
