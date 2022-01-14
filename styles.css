@@ -16,14 +16,12 @@
   justify-content: center;
 }
 
-h2 {
-  text-align: center;
-}
-
-.header {
-
-}
-
 .add-entry-btn {
   margin-top: 10vh;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+.warning-wrapper {
+  background-color: beige;
 }

@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-    <div class="row header justify-center">
+    <div class="row justify-center">
       <div class="full-column">
         <h1> Weekly Planner </h1>
       </div>
@@ -18,6 +18,24 @@
     <div class="row justify-center">
       <button type="button" class="add-entry-btn">Add Entry</button>
     </div>
+    <form>
+      <div data-view="add-form" class="view-container hidden">
+        <div class="overlay">
+          <div class="row modal-wrapper">
+            <div class="row justify-center column-full">
+              <h2 class="add-your-entry">Add entry?</h2>
+              <label for=""></label>
+              <select name="" id="1"></select>
+              <label for=""></label>
+              <select name="" id="2"></select>
+              <label for=""></label>
+              <textarea name="" id="3" cols="30" rows="10"></textarea>
+              <button type="submit" class="cancel-deletion btn btn-outline-secondary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
   <script src="main.js"></script>
 </body>
