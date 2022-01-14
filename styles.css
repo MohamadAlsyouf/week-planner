@@ -1,0 +1,17 @@
+.container {
+  width: 83%;
+  margin: auto;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
