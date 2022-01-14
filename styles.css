@@ -21,7 +21,7 @@
 }
 
 .select-date {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .add-entry-btn {
@@ -35,7 +35,6 @@
 }
 
 .modal {
-  /* display: none; */
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -51,13 +50,33 @@
   background-color: #fefefe;
   margin: auto;
   border: 1px solid #888;
-  width: 50%;
+  width: 75%;
   border-radius: 4px;
   text-align: center;
-  padding-bottom: 56px;
+  padding-bottom: 5px;
   padding-top: 10px;
 }
 
 .open {
   display: block;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.the-text-box {
+  margin-top: 3vh;
+}
+
+.submit-the-form {
+  margin-top: 3vh;
+  margin-right: 2rem;
+  background-color: white;
+  padding: 2px 4px;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
 }
