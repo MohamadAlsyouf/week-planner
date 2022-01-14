@@ -16,6 +16,14 @@
   justify-content: center;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
+.select-date {
+  margin-left: 1rem;
+}
+
 .add-entry-btn {
   margin-top: 10vh;
   padding: 10px 32px;
