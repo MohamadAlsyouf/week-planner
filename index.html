@@ -5,24 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Week Planner</title>
+  <link rel="stylesheet" crossorigin="anonymous"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="container">
-    <div class="row justify-center">
-      <div class="full-column">
-        <h1> Weekly Planner </h1>
+    <div data-view="home-page" class="view-container">
+      <div class="row justify-center">
+        <div class="full-column">
+          <h1> Weekly Planner </h1>
+        </div>
+      </div>
+      <div class="row justify-center">
+        <button type="button" class="add-entry-btn">Add Entry</button>
       </div>
     </div>
-    <div class="row justify-center">
-      <button type="button" class="add-entry-btn">Add Entry</button>
-    </div>
-
     <form>
       <div data-view="add-form" class="view-container hidden">
         <div class="modal">
           <div class="modal-content">
+            <div class="column-full">
+              <div class="row justify-end">
+                <button type="button" class="exit-the-form"><i class="fas fa-times"></i></button>
+              </div>
+            </div>
             <div class="column-full">
               <div class="row justify-center">
                 <h2>Add Entry</h2>
@@ -71,7 +80,8 @@
             </div>
             <div class="column-full">
               <div class="row justify-center">
-                <textarea class="the-text-box" name="the-message" id="user-message" cols="71" rows="8" placeholder="Description"></textarea>
+                <textarea class="the-text-box" name="the-message" id="user-message" cols="71" rows="8"
+                  placeholder="Description"></textarea>
               </div>
             </div>
             <div class="column-full">

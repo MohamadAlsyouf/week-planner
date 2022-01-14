@@ -20,6 +20,10 @@
   justify-content: flex-start;
 }
 
+.hidden {
+  display: none;
+}
+
 .select-date {
   margin-left: 2rem;
 }
@@ -77,6 +81,10 @@
   margin-bottom: 1rem;
 }
 
-.hidden {
-  display: none;
+.exit-the-form {
+  background-color: white;
+  border: none;
+  color: red;
+  margin-right: 2px;
+  cursor: pointer;
 }
