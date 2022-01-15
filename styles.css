@@ -12,6 +12,11 @@
   width: 100%;
 }
 
+/*
+.column-three-fourths {
+  width: 75%;
+} */
+
 .justify-center {
   justify-content: center;
 }
@@ -22,6 +27,10 @@
 
 .hidden {
   display: none;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .select-date {
@@ -87,4 +96,22 @@
   color: red;
   margin-right: 2px;
   cursor: pointer;
+}
+
+.day-box {
+  border: 2px solid black;
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+.day-box:hover {
+  background-color: aliceblue;
+}
+
+.box-gap {
+  gap: 25px;
+  margin: 0 50px;
 }
