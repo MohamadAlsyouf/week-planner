@@ -12,10 +12,13 @@
   width: 100%;
 }
 
-/*
+.column-third {
+  width: 33%;
+}
+
 .column-three-fourths {
   width: 75%;
-} */
+}
 
 .justify-center {
   justify-content: center;
@@ -114,4 +117,35 @@
 .box-gap {
   gap: 25px;
   margin: 0 50px;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+}
+
+.the-time {
+  table-layout: fixed;
+  width: 24%;
+}
+
+.the-description {
+  table-layout: fixed;
+  width: 70%;
+}
+
+th {
+  border: black solid 1px;
+}
+
+td {
+  border: black solid 1px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.filler-text {
+  color: transparent;
 }
