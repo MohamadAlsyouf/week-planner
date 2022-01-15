@@ -141,7 +141,3 @@ th {
 td {
   border: black solid 1px;
 }
-
-tr:nth-child(odd) {
-  background-color: #f2f2f2;
-}
