@@ -5,6 +5,10 @@ var $views = document.querySelectorAll('.view-container');
 var $exitForm = document.querySelector('.exit-the-form');
 var $getChoreInfo = document.querySelector('#get-chore');
 
+function dataEntry() {
+
+}
+
 function grabFormInfo(event) {
   event.preventDefault();
   var getId = data.nextChoreId;
